@@ -14,8 +14,8 @@ namespace TFD
 	static const char* GNamesSig = "\x4C\x8D\x35\x00\x00\x00\x00\x0F\x95\x44\x24\x2C\x48\x2B\xCB";
 	static const char* GNamesMask = "xxx????xxxxxxx";
 
-	static const char* NGSSig = "\x74\x00\x4C\x8B\x05\xEC\xA1\x34";
-	static const char* NGSMask = "x?xxxxxx";
+	static const char* NGSSig = "\x74\x3D\x4C\x8B\x05\x3C\xE5\x34";
+	static const char* NGSMask = "xxxxxxxx";
 	
 	static const char* UMPOSCGetAccountSig = "\x40\x53\x48\x83\xEC\x20\x48\x8B\xD9\xE8\x00\x00\x00\x00\x48\x8B\xC8\x48\x8B\x10\xFF\x92\x18\x03";
 	static const char* UMPOSCGetAccountMask = "xxxxxxxxxx????xxxxxxxxxx";
